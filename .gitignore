@@ -15,7 +15,8 @@ dist/
 *.tsbuildinfo
 
 # IDEs and editors
-.vscode/
+.vscode/*
+!.vscode/launch.json
 .idea/
 *.sublime-project
 *.sublime-workspace
@@ -23,6 +24,12 @@ dist/
 # OS generated files
 .DS_Store
 Thumbs.db
+
+# Binary files like images
+*.png
+*.jpg
+*.jpeg
+*.gif
 
 # Environment variables
 .env
