@@ -43,5 +43,5 @@ Thumbs.db
 
 # Gemini
 .gemini/
-lab/
+# lab/
 GEMINI.md
